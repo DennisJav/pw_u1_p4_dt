@@ -1,7 +1,7 @@
 .menu li{
     list-style: none;
     display: inline-block;
-    border: 2px solid aqua ;
+    border: aqua;
     margin: 5px;
     border-radius: 6px;
     border-style: ridge;
@@ -36,7 +36,7 @@ body{
 }
 
 .formulario{
-    width: 900px;
+    width: 1000px;
     border: 1px double black;
     margin: 15px auto;
     background-color: seashell;
@@ -45,7 +45,7 @@ body{
 
 .section{
     margin: 20px;
-    width: 600px;
+    width: 700px;
     float: left;
 }
 
@@ -55,5 +55,22 @@ article{
     margin-bottom: 25px;
     background-color: azure;
 
+}
+
+.referencias{
+    border: 1px solid black;
+    width: 200px;
+    float: left;
+    margin-top: 100px;
+    margin-left: 20px;
+
+}
+
+article footer{
+    text-align: right;
+}
+
+.pie{
+    clear: both;
 }
 
