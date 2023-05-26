@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="../js/calculadora.js"></script>
+    <script src="../js/calculadoraLambda.js"></script>
 </head>
 <body>
     <header></header>
@@ -19,18 +19,23 @@
         <button onclick="document.getElementById('labelResultado').style.backgroundColor='red'">JS online</button>
         <button onclick="document.getElementById('labelResultado').innerHTML='prueba'">JS online 2</button>
         -->
-        <button onclick="sumarNumeros(1)">Sumar</button>
-        <button onclick="sumarNumeros(2)">Restar</button>
-        <button onclick="sumarNumeros(3)">Multiplicar</button>
-        <button onclick="sumarNumeros(4)">Dividir</button>
+        <button onclick="sumarNumeros()">Sumar</button>
+        <button onclick="restarNumeros()">Restar</button>
+        <button onclick="multiplicarNumeros()">Multiplicar</button>
+        <button onclick="dividirNumeros()">Dividir</button>
+        <label id="labelResultado" for="">Resultado:  </label>
 
-        <button onclick="eliminarElemento()">Eliminar</button>
+        <h1>Conceptos JS</h1>
+        <button onclick="conceptosJS()">Conceptos JS</button>
+
+
+        <!--<button onclick="eliminarElemento()">Eliminar</button>
         <button onclick="insertarElemento()">Insertar</button>
 
         <label id="labelResultado" for="">Resultado: </label>
         <label id="idEliminar" for="Eliminar"></label>
         <div id="idInsertar"></div>
-
+        -->
     </section>
     <footer></footer>
 </body>

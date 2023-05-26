@@ -28,9 +28,15 @@ function sumarNumeros(op){
 }
 
 function eliminarElemento(){
-    document.getElementById('idEliminar').remove;
+    document.getElementById('idEliminar').remove();
+
 }
 
 function insertarElemento(){
     document.getElementById('idInsertar').innerHTML='<strong>Importante</strong>';
+}
+
+function convertir(idCampo){
+    return parseInt(document.getElementById(idCampo).value);
+
 }
